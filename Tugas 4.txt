@@ -1,0 +1,12 @@
+1	CREATE DATABASE permainan
+2	CREATE TABLE sepakbola(
+	id_pemain int(11) not null primary kry auto_increment,
+	nama_pemain varchar(100) not null,
+	usia_pemain int(2) not null,
+	posisi_pemain varchar(50) not null,
+	);
+3	desc sepakbola;
+4	alter table sepakbola 
+	rename to sepakbola_indonesia;
+5	drop table sepakbola_indonesia;
+	drop database permainan;
